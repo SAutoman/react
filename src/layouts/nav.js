@@ -39,7 +39,7 @@ const nav = () => {
     ];
 
     return (
-        <div className="h-screen bg-indigo-950 bg-opacity-25 border-r-[1px] border-gray-500 flex-col w-60 hidden lg:flex">
+        <div className="h-screen bg-indigo-950 bg-opacity-25 border-r-[1px] border-gray-700 flex-col w-72 hidden lg:flex">
             <Logo  />
                 <Menu menus={menus}/>
             <Logout />
