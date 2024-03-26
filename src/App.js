@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Nav from './layouts/nav';
+import SubNav from './layouts/subnav';
+import Main from './layouts/main';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=' h-full flex  bg-dark-blue'>
+      <Nav />
+      <SubNav />
+      <Main 
+        title={`New Task`}
+        subtitle={`Things to do`}
+      />
     </div>
   );
 }
