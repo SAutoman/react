@@ -12,7 +12,7 @@ const AppEditor = () => {
   return (
     <div>
       <Editor
-      placeholder='Start write your text here'
+        placeholder='Start write your text here'
         editorState={editorState}
         onEditorStateChange={onEditorStateChange}
       />

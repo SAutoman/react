@@ -6,7 +6,7 @@ const Menu = ({menus}) => {
 
     return (
         <div>
-            <ul className='relative left-5 top-5'>
+            <ul className='relative left-10'>
                 {
                     menus.map(menu => 
                         <MenuItem 

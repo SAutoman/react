@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  /* font-family: 'Inter' ; */
+  font-family: 'Inter' ;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -13,6 +13,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 #root{
   height: 100vh;
 }
@@ -74,3 +75,13 @@ code {
 .rdw-editor-toolbar{
   border: none !important;
 }
+/* 
+.text-lg{
+  font-size: 20px !important;
+}
+.w-60{
+  width: 309px !important;
+}
+.my-2{
+  margin-top: 30px !important;
+} */

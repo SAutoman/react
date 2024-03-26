@@ -7,32 +7,32 @@ import { IoIosArchive, IoIosContacts, IoIosDocument, IoIosHome, IoIosMan, IoIosS
 const nav = () => {
     const menus = [
         {
-            icon: <IoIosHome />,
+            icon: <IoIosHome className="text-2xl"/>,
             title: 'Dashboard',
             url : '#',
         },
         {
-            icon: <IoIosDocument />,
+            icon: <IoIosDocument className="text-2xl"/>,
             title: 'Document',
             url : '#',
         },
         {
-            icon: <IoIosContacts />,
+            icon: <IoIosContacts className="text-2xl"/>,
             title: 'Contracts',
             url : '#',
         },
         {
-            icon: <IoIosArchive />,
+            icon: <IoIosArchive className="text-2xl"/>,
             title: 'Archive',
             url : '#',
         },
         {
-            icon: <IoIosMan />,
+            icon: <IoIosMan className="text-2xl"/>,
             title: 'File X',
             url : '#',
         },
         {
-            icon: <IoIosSettings />,
+            icon: <IoIosSettings className="text-2xl"/>,
             title: 'Settings',
             url : '#',
         }
