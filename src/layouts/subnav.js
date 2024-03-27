@@ -31,7 +31,7 @@ const SubNav = () => {
         }
     ];
     return (
-        <div className="h-screen bg-indigo-950 bg-opacity-25 border-r-gray-500 pt-48 w-60 hidden lg:block">
+        <div className="h-screen bg-indigo-950 bg-opacity-25 border-r-gray-500 pt-48 w-265 hidden lg:block">
             <Menu  menus={menus} />
         </div>
     )

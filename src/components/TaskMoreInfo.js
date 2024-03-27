@@ -7,9 +7,9 @@ const TaskMoreInfo = ({onClick, isOpend, ...props}) => {
             <div className="w-1/10 flex text-white items-center">
                 { isOpend ? <IoIosArrowDown /> : <IoIosArrowUp />}
 
-                <span className=" ml-2">More</span>
+                <span className=" ml-2 font-18">More</span>
             </div>
-            <p className="text-slate-600 font-medium ml-2">(Projects,  Time Tracking, Remnd, Repeat, Gantt, CRM, Subtask, Tags, Fields)</p>
+            <p className="text-slate-600 font-medium ml-2 font-18">(Projects,  Time Tracking, Remnd, Repeat, Gantt, CRM, Subtask, Tags, Fields)</p>
         </div>
     )
 }

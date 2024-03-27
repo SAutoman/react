@@ -3,45 +3,46 @@ import Logo from "../components/auth/logo";
 import Menu from "../components/Menu/Menu";
 import Logout from "../components/auth/logout";
 import { IoIosArchive, IoIosContacts, IoIosDocument, IoIosHome, IoIosMan, IoIosSettings } from "react-icons/io";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const nav = () => {
     const menus = [
         {
-            icon: <IoIosHome className="text-2xl"/>,
+            icon: <IoIosHome className="font-30"/>,
             title: 'Dashboard',
             url : '#',
         },
         {
-            icon: <IoIosDocument className="text-2xl"/>,
+            icon: <IoIosDocument className="font-30"/>,
             title: 'Document',
             url : '#',
         },
         {
-            icon: <IoIosContacts className="text-2xl"/>,
+            icon: <IoIosContacts className="font-30"/>,
             title: 'Contracts',
             url : '#',
         },
         {
-            icon: <IoIosArchive className="text-2xl"/>,
+            icon: <IoIosArchive className="font-30"/>,
             title: 'Archive',
             url : '#',
         },
         {
-            icon: <IoIosMan className="text-2xl"/>,
+            icon: <IoIosMan className="font-30"/>,
             title: 'File X',
             url : '#',
         },
         {
-            icon: <IoIosSettings className="text-2xl"/>,
+            icon: <IoIosSettings className="font-30"/>,
             title: 'Settings',
             url : '#',
         }
     ];
 
     return (
-        <div className="h-screen bg-indigo-950 bg-opacity-25 border-r-[1px] border-gray-700 flex-col w-72 hidden lg:flex">
+        <div className="h-screen bg-indigo-950 bg-opacity-25 border-r-[1px] border-gray-700 flex-col w-309 hidden lg:flex">
             <Logo  />
-                <Menu menus={menus}/>
+            <Menu menus={menus}/>
             <Logout />
         </div>
     )
