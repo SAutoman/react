@@ -15,22 +15,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.font-36{
-  font-size: 36px;;
+
+.font-36 {
+  font-size: 36px;
+  ;
 }
-.font-24{
+
+.font-24 {
   font-size: 24px;
 }
+
 .font-18 {
   font-size: 18px;
 }
-.font-16{
+
+.font-16 {
   font-size: 16px;
 }
-.padding-top-50{
+
+.padding-top-50 {
   padding-top: 50px;
 }
-#root{
+
+#root {
   height: 100vh;
 }
 
@@ -41,56 +48,67 @@ code {
 .bg-dark-blue {
   background-color: rgba(0, 10, 60, 1);
 }
+
 .ql-snow * {
-  color: white !important; 
+  color: white !important;
 }
+
 .ql-container {
   height: 200px !important;
-  
+
 }
+
 .ql-snow .ql-stroke {
   stroke: white !important;
 }
-.ql-snow .ql-fill
-.ql-snow .ql-fill{
+
+.ql-snow .ql-fill .ql-snow .ql-fill {
   stroke: white !important;
 }
+
 .ql-stroke {
   /* stroke: white; */
   fill: white;
   color: white;
 }
 
-.rdw-editor-toolbar{
+.rdw-editor-toolbar {
   background: transparent !important;
 }
+
 .rdw-editor-main {
   background: #0D1646;
   height: 200px !important;
   color: white;
 }
+
 .rdw-option-wrapper {
   /* background-color: transparent !important; */
 }
-.rdw-editor-main{
+
+.rdw-editor-main {
   overflow: hidden !important;
   padding: 0px 10px !important;
 }
-.rdw-option-wrapper{
+
+.rdw-option-wrapper {
   background-color: #2a3256 !important;
-  border:#2a3256 !important
+  border: #2a3256 !important
 }
-.rdw-dropdown-wrapper{
+
+.rdw-dropdown-wrapper {
   background-color: #2a3256 !important;
-  border:#2a3256 !important;
+  border: #2a3256 !important;
 }
-.rdw-dropdown-selectedtext{
+
+.rdw-dropdown-selectedtext {
   color: white !important;
 }
 
-.rdw-editor-toolbar{
+.rdw-editor-toolbar {
   border: none !important;
 }
+
 /* 
 .text-lg{
   font-size: 20px !important;
@@ -101,12 +119,24 @@ code {
 .my-2{
   margin-top: 30px !important;
 } */
-.w-309{
-  width:309px;
+.w-309 {
+  width: 309px;
 }
-.w-265{
+
+.w-265 {
   width: 265px;
 }
-.font-30{
-  font-size:30px;
+
+.font-30 {
+  font-size: 30px;
+}
+.home-container {
+  max-width: 1075px;
+}
+@media screen and (min-width: 1536px) {
+  .home-container {
+    max-width: 1075px;
+  }
+
+
 }
