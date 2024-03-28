@@ -24,8 +24,8 @@ const Header = ({ }) => {
                 </ul>
 
                 <div className="items-center gap-5 md:flex hidden">
-                    <p href="#" className="text-base leading-[22px]">Contacts</p>
-                    <button className="flex justify-center items-center transition ease-in-out duration-300 border-2 border-[#ffdd59] w-[30px] h-[30px] rounded-full hover:bg-[#ffdd59] bg-transparent text-primary hover:text-black"><FontAwesomeIcon icon={faArrowRight} className="fa-sm" /></button>
+                    <p href="#" className="text-base leading-[22px] text-[#FFDD59]">Contacts</p>
+                    <button className="flex justify-center items-center transition ease-in-out duration-300 text-[#FFDD59] border-2 border-[#ffdd59] w-[30px] h-[30px] rounded-full hover:bg-[#ffdd59] bg-transparent text-primary hover:text-black"><FontAwesomeIcon icon={faArrowRight} className="fa-sm" /></button>
                 </div>
                 <div className="md:hidden block">
                     <div className="">
