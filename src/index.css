@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -34,12 +34,14 @@ code {
 .camera{
   position: absolute;
     top: 0px;
-    right: 0px;
+    right: 30px;
+    width: 5%;
 }
 .polygon{
   position: absolute;
-    top: 82px;
+    top: 43px;
     right: 46px;
+    width: 40%;
 }
 .font-56{
   font-size: 56px;
@@ -243,4 +245,59 @@ code {
 .home-container {
   max-width: 1075px;
 }
+.camera{
+  top: 575px;
+  right: 10px;
+}
+.polygon{
+  top: 600px;
+  right: 20px;
+}
+.margin-120{
+  padding-left: 100px;
+  padding-right: 50px;
+}
+img{
+  max-height: 450px !important;
+}
+.font-18{
+  font-size: 18px;
+}
+
+}
+
+
+@media (max-width: 600px) {
+
+ 
+.margin-120{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.font-18{
+  font-size: 12px;
+}
+
+}
+@media (max-width: 450px) {
+
+  .w-420{
+    width: 150px;
+  }
+  .font-52 {
+    font-size: 15px !important;
+  }
+  .font-18{
+    font-size: 8px !important;
+  }
+  .p-20{
+    padding: 10px;
+  }
+  .font-32{
+    font-size: 20px !important;
+  }
+  .p-24{
+    padding: 15px;
+  }
+  
 }

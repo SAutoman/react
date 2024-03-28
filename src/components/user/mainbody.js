@@ -1,9 +1,9 @@
-import logo from '../../public/assets/img/Rectangle 4405.png';
+import logo from '../../public/assets/img/protection1.png';
 import vector from '../../public/assets/img/Rectangle 4406.png';
 import camera from '../../public/assets/img/_Group_.png';
 import polygon from '../../public/assets/img/Polygon 1.png';
 import mark from '../../public/assets/img/Mask Group.png';
-const Contact = () => {
+const MainBody = () => {
 
     return (
         <div className='margin-120 pt-28'>
@@ -11,7 +11,7 @@ const Contact = () => {
                     <div className=' w-1/2'>
                         <h1 className='font-56 text-center text-white mb-5'>
 
-                            Face Recognition
+                        Perimeter Protection
                         </h1>
                         <p className=' text-white text-center font-18 mb-5'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis nunc maecenas rhoncus pellentesque ante odio turpis. Urna et sem
@@ -27,20 +27,18 @@ const Contact = () => {
                     <div className='w-1/2 p-20 align-middle items-center' >
                         <h1 className='text-white font-52'>What is</h1>
                         
-                        <div class="w-420 h-20 flex w-full relative items-center justify-center text-center">
-                            <h2 className='font-52 text-yellow-200'>Face Recognition?</h2>
-                            <div class="absolute top-0 left-0 w-5 h-5 border-2 border-amber-300 border-r-0 border-b-0 rounded-sm"></div>
-                            <div class="absolute top-0 right-0 w-5 h-5 border-2 border-amber-300 border-l-0 border-b-0 rounded-sm"></div>
-                            <div class="absolute bottom-0 left-0 w-5 h-5 border-2 border-amber-300 border-r-0 border-t-0 rounded-sm"></div>
-                            <div class="absolute bottom-0 right-0 w-5 h-5 border-2 border-amber-300 border-l-0 border-t-0 rounded-sm"></div>
+                        <div class="h-20 flex w-full relative">
+                            <h2 className='font-52 text-yellow-200'>Perimeter Protection?</h2>
+
                         </div>
 
                         <p className='text-white pb-10 pt-10 font-18'>
 
-                        Face recognition is mainly used for identification. Due to the popularity of video surveillance, many video surveillance systems urgently need a kind of rapid identification technology under in order to quickly identify people in remote and realize intelligent alarm beforehand.
+                            With the perimeter making the first line of defense against unwanted intruders, industrial, civil and residential security solution providers are experiencing an increase in the demand for leading-edge techniques to reshaping the system used for perimeter protection and wide area surveillance.
                         </p>
                         <p className='text-white font-18'>
-                        Dahua Face Recognition solutions offer high accuracy of detection rate and recognition rate with its advanced AI technology ,and can provide such functions as Face Detection, Face Comparison, Intelligent Search, Face Image Search, Face Database Management, Mobile App Linkage, Information Display, Video Full Color ,etc. to improve user experience.
+                        
+                            Dahua perimeter protection solution is designed to provide a high-efficiency, reliable, cost-effective and visual system powered by artificial intelligence technology. High-definition and AI-enabled security products can offer precise and predictive intrusion alert, and record detailed visual information at the right time.
                         </p>
                     </div>
                     <div className='w-1/2 relative'>
@@ -70,4 +68,4 @@ const Contact = () => {
     )
 }
 
-export default Contact;
+export default MainBody;
