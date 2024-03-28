@@ -5,39 +5,124 @@ import Logout from "../components/auth/logout";
 import { IoIosArchive, IoIosContacts, IoIosDocument, IoIosHome, IoIosMan, IoIosSettings } from "react-icons/io";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import SubNav from "./subnav";
-
+import Card from "../components/common/card";
+import { Collapse } from "react-collapse";
+import TaskMoreInfo from "../components/TaskMoreInfo";
 const Nav = () => {
     const [ isSubVisible, setIseSubVisible ] = useState(false);
+
+
+    const [isExpanded, setIsExpanded] = useState(true);
+
+    const toggleCollapse = () => {
+        console.log(isExpanded);
+        setIsExpanded(!isExpanded);
+    }
+
+
     const menus = [
         {
             icon: <IoIosHome className="font-30"/>,
             title: 'Dashboard',
             url : '#',
+            sub_menus : [
+                {
+                    title: 'Menu 1',
+                },
+                {
+                    title: 'Menu 1',
+                },
+                {
+                    title: 'Menu 1',
+                },
+            ]
         },
         {
             icon: <IoIosDocument className="font-30"/>,
             title: 'Document',
             url : '#',
+            sub_menus : [
+                {
+                    title: 'Update info',
+                },
+                {
+                    title: 'Tasks',
+                },
+                {
+                    title: 'Account Finace',
+                },
+                {
+                    title: 'Request',
+                },
+                {
+                    title: 'Book',
+                }
+            ]
         },
         {
             icon: <IoIosContacts className="font-30"/>,
             title: 'Contracts',
             url : '#',
+            sub_menus : [
+                {
+                    title: 'Menu 1',
+                },
+                {
+                    title: 'Menu 1',
+                },
+                {
+                    title: 'Menu 1',
+                },
+            ]
+
         },
         {
             icon: <IoIosArchive className="font-30"/>,
             title: 'Archive',
             url : '#',
+            sub_menus : [
+                {
+                    title: 'Menu 1',
+                },
+                {
+                    title: 'Menu 1',
+                },
+                {
+                    title: 'Menu 1',
+                },
+            ]
         },
         {
             icon: <IoIosMan className="font-30"/>,
             title: 'File X',
             url : '#',
+            sub_menus : [
+                {
+                    title: 'Menu 1',
+                },
+                {
+                    title: 'Menu 1',
+                },
+                {
+                    title: 'Menu 1',
+                },
+            ]
         },
         {
             icon: <IoIosSettings className="font-30"/>,
             title: 'Settings',
             url : '#',
+            sub_menus : [
+                {
+                    title: 'Menu 1',
+                },
+                {
+                    title: 'Menu 1',
+                },
+                {
+                    title: 'Menu 1',
+                },
+            ]
         }
     ];
 
@@ -54,9 +139,9 @@ const Nav = () => {
                 />
                 <Logout />
             </div>
-            {
+            {/* {
                 isSubVisible ? <SubNav/> : <></>
-            }
+            } */}
         </>
     )
 }

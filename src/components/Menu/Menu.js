@@ -14,6 +14,8 @@ const Menu = ({menus, onClick}) => {
                             icon = {menu.icon}
                             url = {menu.url}
                             onClick ={onClick}
+                            sub_menus = {menu.sub_menus ?? []}
+
                         />
                     )
                 }
