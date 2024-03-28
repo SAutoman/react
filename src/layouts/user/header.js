@@ -49,7 +49,7 @@ const Header = ({ }) => {
                         <li className="text-sm leading-[30px] pb-4"><a href="#" className="hover:underline hover:text-[#ffdd59]">Contacts</a></li>
                     </ul>
                     <div className="items-center gap-5 flex md:hidden">
-                        <p href="#" className="text-base leading-[22px]">Contacts</p>
+                        <p href="#" className="text-base leading-[22px]">Contacts Us</p>
                         <button className="flex justify-center items-center transition ease-in-out duration-300 border-2 border-primary w-[30px] h-[30px] rounded-full hover:bg-primary bg-transparent text-primary hover:text-black"><FontAwesomeIcon icon={faArrowRight} /></button>
                     </div>
                 </div>
