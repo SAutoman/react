@@ -12,7 +12,7 @@ const Header = ({ }) => {
         // Add your sidebar toggle logic here
     };
     return (
-        <div className="xl:w-[1200px] w-11/12 mx-auto h-[94px] text-white bg-transparent flex items-end">
+        <div className="container mx-auto h-[94px] text-white bg-transparent flex items-end">
             <div className="flex justify-between w-full">
                 <img className="w-[74px] ml-10 mr-20" src={logo} />
                 <ul className={`justify-between items-center lg:gap-14 md:gap-8 gap-4 md:flex hidden`}>

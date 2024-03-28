@@ -6,7 +6,7 @@ import { FaTwitter, FaVideo, FaFacebook, FaInstagram } from 'react-icons/fa';
 const Footer = ({ }) => {
 
     return (
-        <footer className="xl:w-[1200px] lg:w-[992px] h-full md:w-9/12 w-11/12 mx-auto text-[#ccced8]">
+        <footer className="xl:w-[1200px] lg:w-[992px] md:w-9/12 w-11/12 text-[#ccced8]">
             <div className="grid grid-cols-12">
                 <img src={logo} className="lg:col-span-2 col-span-12 w-[72px] mb-5" />
                 <div className="lg:col-span-3 col-span-6">
