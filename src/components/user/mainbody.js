@@ -56,7 +56,7 @@ const MainBody = () => {
                         </div>
                         <div className='w-1/2 relative flex justify-center items-center btn-contact'>
                         <button class="bg-white hover:bg-gray-200 text-gray-800 font-18 py-2 px-4 rounded">
-                        Conntact us
+                        Contact us
                         </button>
 
                         </div>
