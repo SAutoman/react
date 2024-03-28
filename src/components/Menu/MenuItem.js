@@ -11,19 +11,21 @@ const MenuItem = ({icon, title, url, onClick, sub_menus}) => {
         setIsExpanded(!isExpanded)
     }
     return (
-        <li className="py-3" onClick={()=> toggleCollapse()}>
+        <li className="py-1" onClick={()=> toggleCollapse()}>
 
             <a href={url} className="text-1xl hover:text-white active:text-white font-bold text-slate-600 flex items-center  font-inter " >
-                {
-                    sub_menus.length > 0 ? isExpanded ? <IoIosArrowUp  className=" m-3"/>: <IoIosArrowDown className=" m-3"/> :<></>
-                }
-                {icon}
+            {icon}
                 <h2 className="ml-5 font-18">{title}</h2>
+                {
+                    sub_menus.length > 0 ? isExpanded ? <IoIosArrowUp  className=" m-1"/>: <IoIosArrowDown className=" m-1"/> :<></>
+                    
+                }
+
             </a>
             <Collapse isOpened={isExpanded}>
                 {
                     sub_menus.map(sub_menu=>(
-                        <div className=" px-24 font-16  p-1 hover:text-white active:text-white font-bold text-slate-600 ">{sub_menu.title}</div>
+                        <div className=" px-14 font-16  p-1 hover:text-white active:text-white font-bold text-slate-600 ">{sub_menu.title}</div>
                     ))
                 }
             </Collapse>

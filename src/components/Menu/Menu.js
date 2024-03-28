@@ -5,7 +5,7 @@ const Menu = ({menus, onClick}) => {
 
 
     return (
-        <div className='padding-top-50'>
+        <div className=' pt-1'>
             <ul className='relative left-12 gap-6 left'>
                 {
                     menus.map(menu => 
