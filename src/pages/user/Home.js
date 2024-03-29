@@ -5,7 +5,7 @@ import Header from "../../layouts/user/header";
 const Home = () => {
 
     return (
-        <div className=" ">
+        <div className="w-full">
             <Header/>
             <Contact />
             <Footer/>
