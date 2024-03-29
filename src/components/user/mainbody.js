@@ -24,11 +24,11 @@ const MainBody = () => {
 
                 </div>
                 <div className='container flex flex-row bg-contact border-radius-20 mb-36 flex-wrap'>
-                    <div className='w-1/2 p-20 align-middle items-center' >
+                    <div className='w-1/2  pl-14 pt-14 align-middle items-center' >
                         <h1 className='text-white font-52'>What is</h1>
                         
                         <div class="h-20 flex w-full relative">
-                            <h2 className='font-52 text-yellow-200'>Perimeter Protection?</h2>
+                            <h2 className='font-52 text-yellow-200 gradient-text '>Perimeter Protection?</h2>
 
                         </div>
 
@@ -41,9 +41,9 @@ const MainBody = () => {
                             Dahua perimeter protection solution is designed to provide a high-efficiency, reliable, cost-effective and visual system powered by artificial intelligence technology. High-definition and AI-enabled security products can offer precise and predictive intrusion alert, and record detailed visual information at the right time.
                         </p>
                     </div>
-                    <div className='w-1/2 relative'>
+                    <div className='w-1/2 relative border-radius-20'>
                         <img src={logo} width={"100%"}></img>
-                        <img src={vector} width={"100%"} className='img-vector'></img>
+
                     </div>
                 </div>
 

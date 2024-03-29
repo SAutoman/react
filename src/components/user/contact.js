@@ -6,8 +6,8 @@ import mark from '../../public/assets/img/Mask Group.png';
 const Contact = () => {
 
     return (
-        <div className='margin-120 pt-28'>
-                <div className='container justify-center items-center text-center flex flex-row relative h-48 mb-20'>
+        <div className='pt-28'>
+                <div className='xl:w-[1200px] lg:w-[992px] md:w-9/12 w-11/12 mx-auto justify-center items-center text-center flex flex-row relative h-48 mb-20'>
                     <div className=' w-1/2'>
                         <h1 className='font-56 text-center text-white mb-5'>
 
@@ -23,7 +23,7 @@ const Contact = () => {
                     </div>
 
                 </div>
-                <div className='container flex flex-row bg-contact border-radius-20 mb-36 flex-wrap'>
+                <div className='xl:w-[1200px] lg:w-[992px] md:w-9/12 w-11/12 mx-auto flex flex-row bg-contact border-radius-20 mb-36 flex-wrap'>
                     <div className='w-1/2 p-20 align-middle items-center' >
                         <h1 className='text-white font-52'>What is</h1>
                         
@@ -49,7 +49,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className="container  bg-contact border-radius-20 mb-36 relative border-2 border-white" >
+                <div className="xl:w-[1200px] lg:w-[992px] md:w-9/12 w-11/12 mx-auto  bg-contact border-radius-20 mb-36 relative border-2 border-white" >
                     <img src={mark} width={"100%"}  className='h-full absolute'></img>
                     <div className='flex flex-row flex-wrap'>
                         <div className='w-1/2 p-24 pr-0 align-middle items-center' >
