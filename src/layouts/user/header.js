@@ -12,7 +12,15 @@ const Header = ({ }) => {
         // Add your sidebar toggle logic here
     };
     return (
+<<<<<<< HEAD
         <div className=" mx-auto h-[94px] text-white bg-transparent flex items-end">
+=======
+<<<<<<< HEAD
+        <div className="container mx-auto h-[94px] text-white bg-transparent flex items-end">
+=======
+        <div className="container mx-auto h-[94px] text-white bg-transparent flex items-end margin-120">
+>>>>>>> 9e463a357bfd12f47cb971b49691fee072b418a9
+>>>>>>> 51236e9117ed80ed6405a1b95885edc938c3d0e7
             <div className="flex justify-between w-full">
                 <img className="w-[74px] ml-10 mr-20" src={logo} />
                 <ul className={`justify-between items-center lg:gap-14 md:gap-8 gap-4 md:flex hidden`}>
