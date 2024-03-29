@@ -6,7 +6,7 @@ import mark from '../../public/assets/img/Mask Group.png';
 const Contact = () => {
 
     return (
-        <div className='margin-120'>
+        <div className='margin-120 pt-28'>
                 <div className='container justify-center items-center text-center flex flex-row relative h-48 mb-20'>
                     <div className=' w-1/2'>
                         <h1 className='font-56 text-center text-white mb-5'>
@@ -17,8 +17,8 @@ const Contact = () => {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis nunc maecenas rhoncus pellentesque ante odio turpis. Urna et sem
                         </p>
                     </div>
-                    <div>
-                        <img src={camera} className='camera'></img>
+                    <div className=''>
+                        <img src={camera} className='camera' ></img>
                         <img src={polygon} className='polygon'></img>
                     </div>
 
@@ -29,10 +29,10 @@ const Contact = () => {
                         
                         <div class="w-420 h-20 flex w-full relative items-center justify-center text-center">
                             <h2 className='font-52 text-yellow-200'>Face Recognition?</h2>
-                            <div class="absolute top-0 left-0 w-10 h-5 border-2 border-amber-300 border-r-0 border-b-0"></div>
-                            <div class="absolute top-0 right-0 w-5 h-5 border-2 border-amber-300 border-l-0 border-b-0"></div>
-                            <div class="absolute bottom-0 left-0 w-5 h-5 border-2 border-amber-300 border-r-0 border-t-0"></div>
-                            <div class="absolute bottom-0 right-0 w-5 h-5 border-2 border-amber-300 border-l-0 border-t-0"></div>
+                            <div class="absolute top-0 left-0 w-5 h-5 border-2 border-amber-300 border-r-0 border-b-0 rounded-sm"></div>
+                            <div class="absolute top-0 right-0 w-5 h-5 border-2 border-amber-300 border-l-0 border-b-0 rounded-sm"></div>
+                            <div class="absolute bottom-0 left-0 w-5 h-5 border-2 border-amber-300 border-r-0 border-t-0 rounded-sm"></div>
+                            <div class="absolute bottom-0 right-0 w-5 h-5 border-2 border-amber-300 border-l-0 border-t-0 rounded-sm"></div>
                         </div>
 
                         <p className='text-white pb-10 pt-10 font-18'>
