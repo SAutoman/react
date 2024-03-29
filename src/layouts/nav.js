@@ -1,11 +1,13 @@
-import { React } from "react";
+import { React, useState } from "react";
 import Logo from "../components/auth/logo";
 import Menu from "../components/Menu/Menu";
 import Logout from "../components/auth/logout";
 import { IoIosArchive, IoIosContacts, IoIosDocument, IoIosHome, IoIosMan, IoIosSettings } from "react-icons/io";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import SubNav from "./subnav";
 
-const nav = () => {
+const Nav = () => {
+    const [ isSubVisible, setIseSubVisible ] = useState(false);
     const menus = [
         {
             icon: <IoIosHome className="font-30"/>,
@@ -39,13 +41,24 @@ const nav = () => {
         }
     ];
 
+    const handleClick = ()=> {
+        setIseSubVisible(!isSubVisible);
+    }
     return (
-        <div className="h-screen bg-indigo-950 bg-opacity-25 border-r-[1px] border-gray-700 flex-col w-309 hidden lg:flex">
-            <Logo  />
-            <Menu menus={menus}/>
-            <Logout />
-        </div>
+        <>
+            <div className="h-screen bg-indigo-950 bg-opacity-25 border-r-[1px] border-gray-700 flex-col w-309 hidden lg:flex">
+                <Logo  />
+                <Menu 
+                    menus={menus}
+                    onClick = {()=>handleClick()}
+                />
+                <Logout />
+            </div>
+            {
+                isSubVisible ? <SubNav/> : <></>
+            }
+        </>
     )
 }
 
-export default nav;
+export default Nav;

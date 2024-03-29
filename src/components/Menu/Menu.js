@@ -1,7 +1,7 @@
 import {React} from 'react'
 import MenuItem from './MenuItem'
 
-const Menu = ({menus}) => {
+const Menu = ({menus, onClick}) => {
 
 
     return (
@@ -13,6 +13,7 @@ const Menu = ({menus}) => {
                             title = {menu.title}
                             icon = {menu.icon}
                             url = {menu.url}
+                            onClick ={onClick}
                         />
                     )
                 }
