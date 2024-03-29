@@ -25,17 +25,7 @@ const Nav = () => {
             icon: <IoIosHome className="font-30"/>,
             title: 'Dashboard',
             url : '#',
-            sub_menus : [
-                {
-                    title: 'Menu 1',
-                },
-                {
-                    title: 'Menu 1',
-                },
-                {
-                    title: 'Menu 1',
-                },
-            ]
+
         },
         {
             icon: <IoIosDocument className="font-30"/>,
@@ -63,66 +53,26 @@ const Nav = () => {
             icon: <IoIosContacts className="font-30"/>,
             title: 'Contracts',
             url : '#',
-            sub_menus : [
-                {
-                    title: 'Menu 1',
-                },
-                {
-                    title: 'Menu 1',
-                },
-                {
-                    title: 'Menu 1',
-                },
-            ]
+
 
         },
         {
             icon: <IoIosArchive className="font-30"/>,
             title: 'Archive',
             url : '#',
-            sub_menus : [
-                {
-                    title: 'Menu 1',
-                },
-                {
-                    title: 'Menu 1',
-                },
-                {
-                    title: 'Menu 1',
-                },
-            ]
+
         },
         {
             icon: <IoIosMan className="font-30"/>,
             title: 'File X',
             url : '#',
-            sub_menus : [
-                {
-                    title: 'Menu 1',
-                },
-                {
-                    title: 'Menu 1',
-                },
-                {
-                    title: 'Menu 1',
-                },
-            ]
+
         },
         {
             icon: <IoIosSettings className="font-30"/>,
             title: 'Settings',
             url : '#',
-            sub_menus : [
-                {
-                    title: 'Menu 1',
-                },
-                {
-                    title: 'Menu 1',
-                },
-                {
-                    title: 'Menu 1',
-                },
-            ]
+
         }
     ];
 
