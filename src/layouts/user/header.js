@@ -12,28 +12,20 @@ const Header = ({ }) => {
         // Add your sidebar toggle logic here
     };
     return (
-<<<<<<< HEAD
-        <div className=" mx-auto h-[94px] text-white bg-transparent flex items-end">
-=======
-<<<<<<< HEAD
-        <div className="container mx-auto h-[94px] text-white bg-transparent flex items-end">
-=======
-        <div className="container mx-auto h-[94px] text-white bg-transparent flex items-end margin-120">
->>>>>>> 9e463a357bfd12f47cb971b49691fee072b418a9
->>>>>>> 51236e9117ed80ed6405a1b95885edc938c3d0e7
+        <div className="xl:w-[1200px] w-11/12 mx-auto h-[94px] text-white bg-transparent flex items-end"> 
             <div className="flex justify-between w-full">
-                <img className="w-[74px] ml-10 mr-20" src={logo} />
+                <img className="w-[74px]" src={logo} />
                 <ul className={`justify-between items-center lg:gap-14 md:gap-8 gap-4 md:flex hidden`}>
-                    <li className="text-sm leading-[30px]"><a href="#" className="hover:underline hover:text-[#ffdd59]">Services</a></li>
-                    <li className="text-sm leading-[30px]"><a href="#" className="hover:underline hover:text-[#ffdd59]">Products</a></li>
-                    <li className="text-sm leading-[30px]"><a href="#" className="hover:underline hover:text-[#ffdd59]">Cases</a></li>
-                    <li className="text-sm leading-[30px]"><a href="#" className="hover:underline hover:text-[#ffdd59]">Partners</a></li>
-                    <li className="text-sm leading-[30px]"><a href="#" className="hover:underline hover:text-[#ffdd59]">Contacts</a></li>
+                    <li className=""><a href="#" className="font-normal text-md/[16px] leading-[22px]  hover:underline hover:text-[#ffdd59]">Services</a></li>
+                    <li className=""><a href="#" className="font-normal text-md/[16px] leading-[22px] hover:underline hover:text-[#ffdd59]">Products</a></li>
+                    <li className=""><a href="#" className="font-normal text-md/[16px] leading-[22px] hover:underline hover:text-[#ffdd59]">Cases</a></li>
+                    <li className=""><a href="#" className="font-normal text-md/[16px] leading-[22px] hover:underline hover:text-[#ffdd59]">Partners</a></li>
+                    <li className=""><a href="#" className="font-normal text-md/[16px] leading-[22px] hover:underline hover:text-[#ffdd59]">Contacts</a></li>
                 </ul>
 
                 <div className="items-center gap-5 md:flex hidden">
                     <p href="#" className="text-base leading-[22px]">Contacts</p>
-                    <button className="flex justify-center items-center transition ease-in-out duration-300 border-2 border-primary w-[30px] h-[30px] rounded-full hover:bg-white bg-transparent text-primary hover:text-black"><FontAwesomeIcon icon={faArrowRight} /></button>
+                    <button className="flex justify-center items-center transition ease-in-out duration-300 border-2 border-[#ffdd59] w-[30px] h-[30px] rounded-full hover:bg-[#ffdd59] bg-transparent text-primary hover:text-black"><FontAwesomeIcon icon={faArrowRight} className="fa-sm" /></button>
                 </div>
                 <div className="md:hidden block">
                     <div className="">
@@ -50,11 +42,11 @@ const Header = ({ }) => {
                 <div className="p-4 ">
                 <img className="w-[74px] ml-10 mr-20 pb-5 pt-2" src={logo} />
                     <ul className={`justify-between text-white `}>
-                        <li className="text-sm leading-[30px] pb-4"><a href="#" className="hover:underline hover:text-[#ffdd59]">Services</a></li>
-                        <li className="text-sm leading-[30px] pb-4"><a href="#" className="hover:underline hover:text-[#ffdd59]">Products</a></li>
-                        <li className="text-sm leading-[30px] pb-4"><a href="#" className="hover:underline hover:text-[#ffdd59]">Cases</a></li>
-                        <li className="text-sm leading-[30px] pb-4  "><a href="#" className="hover:underline hover:text-[#ffdd59]">Partners</a></li>
-                        <li className="text-sm leading-[30px] pb-4"><a href="#" className="hover:underline hover:text-[#ffdd59]">Contacts</a></li>
+                        <li className="text-sm leading-[30px] pb-4"><a href="#" className="font-normal text-sm/[16px] leading-[22px]  hover:underline hover:text-[#ffdd59]">Services</a></li>
+                        <li className="text-sm leading-[30px] pb-4"><a href="#" className="font-normal text-sm/[16px] leading-[22px]  hover:underline hover:text-[#ffdd59]">Products</a></li>
+                        <li className="text-sm leading-[30px] pb-4"><a href="#" className="font-normal text-sm/[16px] leading-[22px]  hover:underline hover:text-[#ffdd59]">Cases</a></li>
+                        <li className="text-sm leading-[30px] pb-4  "><a href="#" className="font-normal text-sm/[16px] leading-[22px]  hover:underline hover:text-[#ffdd59]">Partners</a></li>
+                        <li className="text-sm leading-[30px] pb-4"><a href="#" className="font-normal text-sm/[16px] leading-[22px]  hover:underline hover:text-[#ffdd59]">Contacts</a></li>
                     </ul>
                     <div className="items-center gap-5 flex md:hidden">
                         <p href="#" className="text-base leading-[22px]">Contacts Us</p>

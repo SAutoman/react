@@ -6,8 +6,8 @@ import mark from '../../public/assets/img/Mask Group.png';
 const MainBody = () => {
 
     return (
-        <div className='margin-120 pt-28'>
-                <div className='container justify-center items-center text-center flex flex-row relative h-48 mb-20'>
+        <div className='pt-28'>
+                <div className='xl:w-[1200px] lg:w-[992px] md:w-9/12 w-11/12 mx-auto justify-center items-center text-center flex flex-row relative h-48 mb-20'>
                     <div className=' w-1/2'>
                         <h1 className='font-56 text-center text-white mb-5'>
 
@@ -23,16 +23,16 @@ const MainBody = () => {
                     </div>
 
                 </div>
-                <div className='container flex flex-row bg-contact border-radius-20 mb-36 flex-wrap'>
+                <div className='xl:w-[1200px] lg:w-[992px] md:w-9/12 w-11/12 mx-auto flex flex-row bg-contact border-radius-20 mb-36 flex-wrap'>
                     <div className='w-1/2  pl-14 pt-14 align-middle items-center' >
                         <h1 className='text-white font-52'>What is</h1>
                         
-                        <div class="h-20 flex w-full relative">
-                            <h2 className='font-52 text-yellow-200 gradient-text '>Perimeter Protection?</h2>
 
-                        </div>
+                            <h2 className='font-52 gradient-text '>Perimeter Protection?</h2>
 
-                        <p className='text-white pb-10 pt-10 font-18'>
+
+
+                        <p className='text-white pb-5 pt-5 font-18'>
 
                             With the perimeter making the first line of defense against unwanted intruders, industrial, civil and residential security solution providers are experiencing an increase in the demand for leading-edge techniques to reshaping the system used for perimeter protection and wide area surveillance.
                         </p>
@@ -47,7 +47,7 @@ const MainBody = () => {
                     </div>
                 </div>
 
-                <div className="container  bg-contact border-radius-20 mb-36 relative border-2 border-white" >
+                <div className="xl:w-[1200px] lg:w-[992px] md:w-9/12 w-11/12 mx-auto  bg-contact border-radius-20 mb-36 relative border-2 border-white" >
                     <img src={mark} width={"100%"}  className='h-full absolute'></img>
                     <div className='flex flex-row flex-wrap'>
                         <div className='w-1/2 p-24 pr-0 align-middle items-center' >

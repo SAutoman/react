@@ -24,18 +24,18 @@ const Contact = () => {
 
                 </div>
                 <div className='xl:w-[1200px] lg:w-[992px] md:w-9/12 w-11/12 mx-auto flex flex-row bg-contact border-radius-20 mb-36 flex-wrap'>
-                    <div className='w-1/2 p-20 align-middle items-center' >
+                    <div className='w-1/2 p-14 pt-12 pb-12 align-middle items-center' >
                         <h1 className='text-white font-52'>What is</h1>
                         
-                        <div class="w-420 h-20 flex w-full relative items-center justify-center text-center">
-                            <h2 className='font-52 text-yellow-200'>Face Recognition?</h2>
+                        <div class="w-460 h-14 flex w-full relative items-center justify-center text-center">
+                            <h2 className='font-52 text-yellow-200 gradient-text'>Face Recognition?</h2>
                             <div class="absolute top-0 left-0 w-5 h-5 border-2 border-amber-300 border-r-0 border-b-0 rounded-sm"></div>
                             <div class="absolute top-0 right-0 w-5 h-5 border-2 border-amber-300 border-l-0 border-b-0 rounded-sm"></div>
                             <div class="absolute bottom-0 left-0 w-5 h-5 border-2 border-amber-300 border-r-0 border-t-0 rounded-sm"></div>
                             <div class="absolute bottom-0 right-0 w-5 h-5 border-2 border-amber-300 border-l-0 border-t-0 rounded-sm"></div>
                         </div>
 
-                        <p className='text-white pb-10 pt-10 font-18'>
+                        <p className='text-white pb-3 pt-3 font-18'>
 
                         Face recognition is mainly used for identification. Due to the popularity of video surveillance, many video surveillance systems urgently need a kind of rapid identification technology under in order to quickly identify people in remote and realize intelligent alarm beforehand.
                         </p>
