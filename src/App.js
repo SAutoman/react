@@ -13,6 +13,7 @@ function App() {
         <Routes>
           <Route path='/admin' element={<DashBoard />} />
           <Route path='/'  element= {<Home />}/>
+          
         </Routes>
       </Router>
     </div>

@@ -39,8 +39,8 @@ code {
 }
 .polygon{
   position: absolute;
-    top: 82px;
-    right: 56px;
+    top: 43px;
+    right: 46px;
     width: 40%;
 }
 .font-56{
@@ -246,14 +246,36 @@ code {
   max-width: 1075px;
 }
 .camera{
-  top: 450px;
+  top: 475px;
+  right: 10px;
 }
 .polygon{
   top: 500px;
   right: 20px;
 }
 .margin-120{
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 100px;
+  padding-right: 50px;
 }
+img{
+  max-height: 450px !important;
+}
+.font-18{
+  font-size: 18px;
+}
+
+}
+
+
+@media (max-width: 600px) {
+
+ 
+.margin-120{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.font-18{
+  font-size: 12px;
+}
+
 }
