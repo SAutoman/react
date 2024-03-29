@@ -1,17 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-import Nav from './layouts/nav';
-import Main from './layouts/main';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import DashBoard from './pages/admin/dashboard';
+import Home from './pages/user/Home';
+
 
 function App() {
   return (
     <div className=' h-full flex  bg-dark-blue'>
-      <Nav />
-      
-      <Main 
-        title={`New Task`}
-        subtitle={`Things to do`}
-      />
+      <Router>
+        <Routes>
+          <Route path='/admin' element={<DashBoard />} />
+          <Route path='/'  element= {<Home />}/>
+        </Routes>
+      </Router>
     </div>
   );
 }
