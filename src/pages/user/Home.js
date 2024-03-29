@@ -5,7 +5,7 @@ import Header from "../../layouts/user/header";
 const Home = () => {
 
     return (
-        <div className=" container mx-auto">
+        <div className=" mx-auto ">
             <Header/>
             <Contact />
             <Footer/>

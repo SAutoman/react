@@ -8,7 +8,7 @@ import Home from './pages/user/Home';
 
 function App() {
   return (
-    <div className=' h-full flex  bg-dark-blue'>
+    <div className=' flex  bg-dark-blue'>
       <Router>
         <Routes>
           <Route path='/admin' element={<DashBoard />} />

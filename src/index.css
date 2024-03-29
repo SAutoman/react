@@ -24,8 +24,37 @@ code {
 .font-18 {
   font-size: 18px;
 }
+.border-radius-20{
+  border-radius: 20px;
+}
+.camera{
+  position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.polygon{
+  position: absolute;
+    top: 82px;
+    right: 46px;
+}
+.font-56{
+  font-size: 56px;
+}
+.img-vector{
+  position: absolute;
+  top: 0;
+}
+.w-420{
+  width: 420px;
+}
+.bg-contact{
+  background-color: #0E1746;
+}
 .font-16{
   font-size: 16px;
+}
+.font-52{
+  font-size: 52px;
 }
 .padding-top-50{
   padding-top: 50px;
@@ -109,4 +138,83 @@ code {
 }
 .font-30{
   font-size:30px;
+}
+.font-32{
+  font-size: 32px;;
+}
+.bbbb{
+  /* background: url('../public/assets/img/Mask Group.png'); */
+  
+}
+.margin-120{
+  padding-left: 120px;
+  padding-right: 120px;
+}
+@media (max-width: 1440px) {
+    .font-56{
+      font-size: 44px;
+    }
+    .font-52{
+      font-size: 40px;
+    }
+    .font-18{
+      font-size: 12px;
+    }
+    .w-420{
+      width: 320px;
+    }
+    .h-20{
+      height: 4rem;
+    }
+    .pb-10{
+      /* padding-bottom: 8px; */
+    }
+    .pt-10{
+      /* padding-top: 8px; */
+    }
+}
+@media (max-width: 1300px) {
+
+  .p-20{
+    padding-top: 30px;
+  }
+  .pb-10{
+    padding-bottom: 8px;
+  }
+  .pt-10{
+    padding-top: 8px;
+  }
+  .font-52{
+    font-size: 30px !important;
+  }
+  .w-420{
+    width: 250px;
+  }
+  .h-20{
+    height: 3rem;
+  }
+  .font-32{
+    font-size: 25px;;
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+  .w-1\/2{
+    width: 100%;
+  }
+  .p-24{
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .pr-0{
+    padding-right: 50px;
+  }
+  /* .py-2{
+    padding-bottom: 30px;
+  } */
+  .btn-contact{
+    padding-bottom: 50px;
+  }
 }
